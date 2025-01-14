@@ -1,0 +1,82 @@
+{
+    "Home": {
+        "Metadata": {
+            "title": "Chooat",
+            "description": "Chooat"
+        },
+        "Hero": {
+            "title": "for Creativity and Productivity",
+            "colorTitle": "AI assistant",
+            "description": "Chooat is an AI chat tools to enhance creativity and boost productivity."
+        },
+        "footer": {
+            "title": "Free Chat with Chooat AI"
+        }
+    },
+    "gpt-4o": {
+        "Metadata": {
+            "title": "GPT 4o",
+            "description": "GPT 4o"
+        }
+    },
+    "gpt-4o-mini": {
+        "Metadata": {
+            "title": "GPT 4o Mini",
+            "description": "GPT 4o Mini"
+        }
+    },
+    "gemini-pro-1-5": {
+        "Metadata": {
+            "title": "Gemini Pro 1.5",
+            "description": "Gemini Pro 1.5"
+        }
+    },
+    "Sign": {
+        "login_title": "Login",
+        "login_description": "Enter your email below to login to your account",
+        "login_label_email": "Email",
+        "login_label_password": "Password",
+        "login_or": "Or continue with",
+        "login_not_account": "Don't have an account?",
+        "login_with_google": "Login with Google",
+        "login_with_github": "Login with Github",
+        "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}",
+        "login_txt": "Login",
+        "signup_txt": "Sign up",
+        "signin_txt": "Sign in",
+        "signup_title": "Create an account",
+        "signup_description": "Enter your information to create an account",
+        "signup_label_email": "Email",
+        "signup_label_name": "User name",
+        "signup_label_password": "Password",
+        "signup_label_confirm_password": "Confirm Password",
+        "signup_btn": "Create account",
+        "signup_or": "Or continue with",
+        "signup_not_account": "Already have an account?",
+        "signup_with_google": "Google",
+        "signup_with_github": "Github",
+
+        "welcome": "Welcome back!",
+        "email": "Email Address",
+        "password": "Password",
+        "username": "User Name",
+        "confirm_password": "Confirm Password",
+        "sign_in_google": "Sign in with Google",
+        "sign_in_github": "Sign in with Github",
+        "sign_up_google": "Sign up with Google",
+        "sign_up_github": "Sign up with Github",
+        "login_with": "or login with email",
+        "sign_in_txt": "Sign In",
+        "or_sign_up": "or sign up",
+        "sign_up_txt": "Sign up",
+        "logout_txt": "logout",
+        "have_account": "Already have an account?",
+        "sign_in_here": "Sign in here",
+        "or": "Or",
+        "email_verify": "Please include a valid email address",
+        "password_verify": "8+ characters required",
+        "username_verify": "Please enter your username",
+        "confirm_password_verify": "Password does not match the password",
+        "menu_account": "My Account"
+    }
+}
