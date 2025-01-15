@@ -2,7 +2,7 @@ import { config } from "dotenv";
 import { defineConfig } from "drizzle-kit";
 
 config({
-  path: ".env.local" // 本地没有.env.production文件，所以在下面url给个默认值应用到本地
+  path: ".env.local"
 }); 
 
 export default defineConfig({

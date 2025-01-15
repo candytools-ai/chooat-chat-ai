@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chooat AI Chatbot
 
-## Getting Started
+An Open-Source AI Chat Platform Powered by Leading AI Models
 
-First, run the development server:
+Welcome to [Chooat](https://chooat.com) AI Chat, an open-source project designed to provide a seamless and powerful AI chat experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+## 🚀 Features
+- Multi-Model Integration: Chat with the best AI models, including ChatGPT, Claude, and Gemini, all in one platform.
+- Dynamic Conversations: Supports natural, responsive, and context-aware interactions.
+- Customizable Architecture: Easily integrate other AI models or adjust configurations to suit your needs.
+- User-Friendly Interface: Designed for accessibility and simplicity, suitable for both developers and end-users.
+- Scalable Backend: Optimized for performance and scalability to handle multiple chat sessions simultaneously.
+
+
+## 🎯 Why Chooat AI Chat?
+
+Chooat AI Chat is built to help developers, researchers, and enthusiasts:
+- Quickly set up an AI chat platform.
+- Experiment with multi-model conversational AI.
+- Customize and extend the platform for their specific use cases.
+
+
+## 🛠️ Tech Stack
+
+- Next.js
+- Vercel AI SDK
+- Next-Auth for user auth
+- Drizzle ORM + postgres for data processing
+- Cloudflare R2
+- TailwindCSS
+- Shadcn UI
+
+
+## 🚀 Quick Start
+
+Follow these steps to get started:
+
+1. Clone the repository:
+
+```
+git clone https://github.com/candytools-ai/chooat-chat-ai.git  
+cd chooat-ai-chat  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Set up API keys:
 
-## Learn More
+- Obtain API keys for your preferred AI models (e.g., OpenAI, Anthropic).
+- Add your keys to the .env.local file :
 
-To learn more about Next.js, take a look at the following resources:
+```
+# GOOGLE
+GOOGLE_ID=
+GOOGLE_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# GITHUB
+GITHUB_ID=
+GITHUB_SECRET=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+AUTH_SECRET=
+NEXTAUTH_SECRET=
 
-## Deploy on Vercel
+POSTGRES_URL=
+AUTH_DRIZZLE_URL=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+OPENROUTER_API_KEY=
+GOOGLE_GENERATIVE_AI_API_KEY=
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+R2_ACCOUNT_ID=
+R2_BUCKET=
+R2_ACCESS_KEY_ID=
+R2_SECRET_ACCESS_KEY=
+R2_DOMAIN_URL=
+```
+
+
+4. Run the app:
+
+```
+pnpm dev
+```
+
+
+5. Access the platform:
+Open your browser and navigate to http://localhost:3000.
+
+
+Deploy on Vercel (Don't forget to setup env)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/candytools-ai/chooat-chat-ai.git&project-name=chooat-chat-ai&repository-name=chooat-chat-ai)
+
+
+## 🤝 Contributing
+
+We welcome contributions to Chooat AI Chat! Here’s how you can help:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a clear description of your changes.
+
+
+## 📄 License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+## 🧑‍💻 Link Me
+
+For questions, discussions, or support, join our community forum or connect with us on Twitter.
+Twitter: [https://x.com/ChooatAI](https://x.com/ChooatAI)
